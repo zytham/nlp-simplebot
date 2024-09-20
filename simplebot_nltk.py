@@ -11,7 +11,8 @@ def get_bot_response(user_input):
     ('(hi|hello|hey|holla|hola)', ['Hey there !', 'Hi there !', 'Hey !']),
     ('(.*) your name ?', ['My name is Charlie', 'I\'m Charlie the Chatbot']),
     ('(.*) do you do ?', ['I specialize in regex pattern matching! How about you?']),
-    ('(.*) created you ?', ['You did! Using python, NLTK and tkinter! '])
+    ('(.*) created you ?', ['You did! Using python, NLTK and tkinter! ']),
+    ('(.*) latest news ?',['Trump is winnig 2024 Pres election', 'Harris is winning on news platform'])
   ]
 
   chat = Chat(pairs)  
